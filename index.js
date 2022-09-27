@@ -20,3 +20,14 @@ function hideMenu(){
     
     menuIcon.style.display = "block"
 }
+
+
+// ----open details page-----
+
+var diseaseCol = document.getElementsByClassName("disease-col")
+
+
+function onItemClick(){
+    location.href = "./details.html";
+    // window.location.assign("details.html");
+}
